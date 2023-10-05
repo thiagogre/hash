@@ -6,6 +6,8 @@ To install dependencies:
 bun install
 ```
 
+To run tests:
+
 ```bash
 bun run:test
 ```
