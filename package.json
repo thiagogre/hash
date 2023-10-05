@@ -3,8 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "run:start": "bun run index.ts",
-    "run:test": "bun test --watch"
+    "run:start": "bun run src/index.ts",
+    "run:test": "bun test",
+    "run:test:watch": "bun test --watch"
   },
   "devDependencies": {
     "bun-types": "^1.0.5-canary.20231005T140125"
