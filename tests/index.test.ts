@@ -1,7 +1,7 @@
 import { describe, it, expect } from "bun:test";
 
-import { data } from "./data";
-import { md5, sha256 } from "./index";
+import { data } from "../src/data";
+import { md5, sha256 } from "../src/index";
 
 describe("Corretos", () => {
   it("SHA256 e MD5 corretos", () => {

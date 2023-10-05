@@ -16,5 +16,6 @@ data.forEach((item) => {
 
 const csvTabela = Bun.file("tabela.csv");
 Bun.write(csvTabela, csv);
+console.log(`[info] Arquivo tabela.csv gerado com sucesso`);
 
 export { md5, sha256 };
